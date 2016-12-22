@@ -8,10 +8,13 @@
  * Controller of the remiApp
  */
 angular.module('remiApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+	// .controller('MainCtrl', function(githubFactory) {
+	.controller('MainCtrl', function(githubFactory) {
+		// githubFactory.getReposByUser({
+		// 	user: "remihb",
+		// }).then(function(_data) {
+		// 	console.log(_data);
+		// }).catch(function(_data) {
+		// 	console.log(_data);
+		// });
+	});
