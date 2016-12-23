@@ -30,6 +30,8 @@ module.exports = function(config) {
       'bower_components/angular-sanitize/angular-sanitize.js',
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-github-api-factory/dist/angular-github-api-factory.js',
+      'bower_components/angular-scroll/angular-scroll.js',
+      'bower_components/bootstrap-autohidingnavbar/src/jquery.bootstrap-autohidingnavbar.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

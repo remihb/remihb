@@ -16,8 +16,10 @@ angular
 		'ngRoute',
 		'ngSanitize',
 		'ngTouch',
-		'jtt_github'
+		'jtt_github',
+		'duScroll'
 	])
+	.value('duScrollDuration', 1000)
 	.config(function($routeProvider) {
 		$routeProvider
 			.when('/', {
